@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varshini M - Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fef0a58494.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .logo {
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="images/logo.jpg"
+            class="logo"
+            alt="Logo"
+            style="width: 80px; height: auto"
+          />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p class="typing-text">Website Designer & Software Engineer</p>
+          <h1>Hello, I'm <span class="highlight">Varshini M</span></h1>
+          <div class="header-cta">
+            <a href="#portfolio" class="btn">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/me.jpg" alt="Profile Picture" />
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/varshini-m-25349527b/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/YourGithub" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://twitter.com/Varshini_M0235" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+          <div class="about-col-2">
+            <div class="about-content">
+              <h3>Passionate Software Engineer & Creative Developer</h3>
+              <p>
+                Hello! I'm Varshini, a budding talent in the dynamic world of
+                Software Engineering. As a fresh graduate, I combine technical
+                expertise with creative problem-solving to build innovative
+                digital solutions.
+              </p>
+              <p>
+                My journey in technology is driven by a passion for creating
+                impactful user experiences and solving complex challenges
+                through elegant code.
+              </p>
+
+              <div class="key-highlights">
+                <div class="highlight-item">
+                  <i class="fas fa-code"></i>
+                  <h4>Clean Code</h4>
+                  <p>Writing maintainable, efficient code</p>
+                </div>
+                <div class="highlight-item">
+                  <i class="fas fa-pencil-ruler"></i>
+                  <h4>UI/UX Design</h4>
+                  <p>Creating intuitive user experiences</p>
+                </div>
+                <div class="highlight-item">
+                  <i class="fas fa-mobile-alt"></i>
+                  <h4>Responsive Design</h4>
+                  <p>Building for all devices</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div id="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend Development</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span data-level="90%">HTML/CSS</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span data-level="85%">JavaScript</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span data-level="80%">React</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Backend Development</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span data-level="88%">Python</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span data-level="82%">Database Management</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 82%" data-progress="75"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services Section -->
+    <div id="services">
+      <div class="container">
+        <h2 class="section-title">My Services</h2>
+        <div class="services-list">
+          <div class="service-card">
+            <i class="fas fa-code"></i>
+            <h3>Web Development</h3>
+            <p>
+              Creating responsive and dynamic websites using modern technologies
+              and best practices.
+            </p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Custom Website Development</li>
+              <li><i class="fas fa-check"></i> Responsive Design</li>
+              <li><i class="fas fa-check"></i> Performance Optimization</li>
+            </ul>
+            <a href="#contact" class="learn-more"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-crop"></i>
+            <h3>UI/UX Design</h3>
+            <p>
+              Designing intuitive and engaging user interfaces that deliver
+              exceptional user experiences.
+            </p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> User Interface Design</li>
+              <li><i class="fas fa-check"></i> User Experience Design</li>
+              <li><i class="fas fa-check"></i> Prototyping</li>
+            </ul>
+            <a href="#contact" class="learn-more"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>App Development</h3>
+            <p>
+              Building custom applications that solve real-world problems and
+              enhance user productivity.
+            </p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Mobile App Development</li>
+              <li><i class="fas fa-check"></i> Cross-platform Solutions</li>
+              <li><i class="fas fa-check"></i> App Maintenance</li>
+            </ul>
+            <a href="#contact" class="learn-more"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+      <div class="container">
+        <h2 class="section-title">My Work</h2>
+        <div class="portfolio-filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="app">App</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+        <div class="work-list">
+          <div class="work" data-category="app">
+            <img
+              src="images/heart.jpg"
+              alt="Cardiovascular Disease Prediction App"
+            />
+            <div class="layer">
+              <h3>Cardiovascular Disease Prediction App</h3>
+              <p>
+                An AI-powered application that helps predict heart-related
+                conditions using machine learning algorithms.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://drive.google.com/file/d/10ooNgRnC2gVjkbqApOoG5-6yitqO9NVC/view?usp=drive_link"
+                  target="_blank"
+                >
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" class="github-link">
+                  <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="work" data-category="app">
+            <img src="images/spotify.jpg" alt="Spotify Genre Grouping" />
+            <div class="layer">
+              <h3>Spotify Genre Grouping</h3>
+              <p>
+                A smart music recommendation system that analyzes your listening
+                habits to suggest new tracks.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://drive.google.com/drive/folders/1XVjwIK5bDbbPewveeum_8g6wQNngIjKG?usp=drive_link"
+                  target="_blank"
+                >
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" class="github-link">
+                  <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="work" data-category="web">
+            <img src="images/e-commerce.png" alt="E-commerce Website" />
+            <div class="layer">
+              <h3>E-commerce Website</h3>
+              <p>
+                A fully responsive online shopping platform with advanced
+                filtering and recommendation features.
+              </p>
+              <div class="project-links">
+                <a href="#" target="_blank">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" class="github-link">
+                  <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="row">
+          <div class="contact-left">
+            <h3>Let's Work Together</h3>
+            <p>
+              I'm always open to discussing new projects, creative ideas, or
+              opportunities to be part of your visions.
+            </p>
+
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <p>varshini0235@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div class="contact-details">
+                  <h4>Phone</h4>
+                  <p>+91 8861644090</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="contact-details">
+                  <h4>Location</h4>
+                  <p>Bangalore, India</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/varshini.ammu.716/"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/magical_soul__28"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/varshini-m-25349527b/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://twitter.com/Varshini_M0235" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <div class="input-group">
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Your Name"
+                  required
+                />
+                <span class="input-focus-border"></span>
+              </div>
+              <div class="input-group">
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="Your Email"
+                  required
+                />
+                <span class="input-focus-border"></span>
+              </div>
+              <div class="input-group">
+                <input
+                  type="text"
+                  name="Subject"
+                  placeholder="Subject"
+                  required
+                />
+                <span class="input-focus-border"></span>
+              </div>
+              <div class="input-group">
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="Your Message"
+                ></textarea>
+                <span class="input-focus-border"></span>
+              </div>
+              <button type="submit" class="btn btn2">Send Message</button>
+            </form>
+            <div id="msg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-wave">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div class="scroll-progress">
+        <div class="scroll-progress-bar"></div>
+      </div>
+      <div class="container">
+        <div class="footer-content">
+          <p>2024 Varshini M. All rights reserved.</p>
+          <a href="#header" class="back-to-top">
+            <i
+              class="fas fa-arrow-up"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+            ></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+      // Tab Functionality
+      // Tab Functionality
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+      // Mobile Menu
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+
+      // Portfolio Filter
+      const filterButtons = document.querySelectorAll(".filter-btn");
+      const workItems = document.querySelectorAll(".work");
+
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          // Remove active class from all buttons
+          filterButtons.forEach((btn) => btn.classList.remove("active"));
+          // Add active class to clicked button
+          button.classList.add("active");
+
+          const filterValue = button.getAttribute("data-filter");
+
+          workItems.forEach((item) => {
+            if (
+              filterValue === "all" ||
+              item.getAttribute("data-category") === filterValue
+            ) {
+              item.style.display = "block";
+              setTimeout(() => {
+                item.style.opacity = "1";
+                item.style.transform = "scale(1)";
+              }, 200);
+            } else {
+              item.style.opacity = "0";
+              item.style.transform = "scale(0.8)";
+              setTimeout(() => {
+                item.style.display = "none";
+              }, 500);
+            }
+          });
+        });
+      });
+
+      // Smooth Scrolling for Navigation Links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+
+      // Typing Animation for Header Text
+      const typingText = document.querySelector(".typing-text");
+      const text = typingText.textContent;
+      typingText.textContent = "";
+
+      let i = 0;
+      function typeWriter() {
+        if (i < text.length) {
+          typingText.textContent += text.charAt(i);
+          i++;
+          setTimeout(typeWriter, 100);
+        }
+      }
+      typeWriter();
+
+      // Scroll Reveal Animation
+      window.addEventListener("scroll", reveal);
+
+      function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        reveals.forEach((element) => {
+          var windowHeight = window.innerHeight;
+          var revealTop = element.getBoundingClientRect().top;
+          var revealPoint = 150;
+
+          if (revealTop < windowHeight - revealPoint) {
+            element.classList.add("active");
+          }
+        });
+      }
+
+      // Form Submission to Google Sheets
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyfZlgA0ny1d-Xpp-c_GHZno0YEEeXxLM7F-AFxKx2hZ2RYluiygKZdmROHw4dEh3N6/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(() => {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+
+      // Progress Bar Animation
+      const skillItems = document.querySelectorAll(".skill-item");
+
+      // Animate progress bars when they come into view
+      const animateProgress = () => {
+  const progressBars = document.querySelectorAll(".progress");
+  
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const bar = entry.target;
+          const percentage = parseInt(bar.getAttribute('data-progress') || '0');
+          
+          // Reset initial state
+          bar.style.transform = "translateX(0)";
+          bar.style.width = "0%";
+          
+          // Animate to the target percentage
+          setTimeout(() => {
+            bar.style.transition = "width 1s ease-in-out";
+            bar.style.width = `${percentage}%`;
+          }, 100);
+          
+          observer.unobserve(bar);
+        }
+      });
+    },
+    { threshold: 0.5 }
+  );
+
+  progressBars.forEach((bar) => observer.observe(bar));
+};
+
+      // Run animation when page loads
+      document.addEventListener("DOMContentLoaded", animateProgress);
+      // Run progress animation when skills section is in view
+      const skillsSection = document.getElementById("skills");
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              animateProgress();
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.5 }
+      );
+
+      observer.observe(skillsSection);
+
+      // Back to Top Button
+      const backToTopButton = document.querySelector(".back-to-top");
+
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 300) {
+          backToTopButton.style.display = "block";
+        } else {
+          backToTopButton.style.display = "none";
+        }
+      });
+
+      backToTopButton.addEventListener("click", (e) => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+      // Scroll Progress Bar
+      window.addEventListener("scroll", () => {
+        const totalScroll =
+          document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPosition = window.scrollY;
+        const scrolled = (scrollPosition / totalScroll) * 100;
+        document.querySelector(
+          ".scroll-progress-bar"
+        ).style.width = `${scrolled}%`;
+      });
+
+      // Back to Top Button
+      window.addEventListener("scroll", () => {
+        const backToTop = document.querySelector(".back-to-top");
+        if (window.scrollY > 500) {
+          backToTop.classList.add("visible");
+        } else {
+          backToTop.classList.remove("visible");
+        }
+      });
+
+      // Smooth scroll to top
+      document.querySelector(".back-to-top").addEventListener("click", (e) => {
+        e.preventDefault();
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+    </script>
+  </body>
+</html>
