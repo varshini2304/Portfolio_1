@@ -150,6 +150,7 @@ nav ul li a:hover::after {
 .btn {
     display: inline-block;
     padding: 15px 35px;
+    color: var(--light-color);
     border-radius: 30px;
     text-decoration: none;
     font-weight: 500;
@@ -380,7 +381,6 @@ nav ul li a:hover::after {
         font-size: 16px;
     }
 }
-/* Enhanced Skills Section */
 /* Enhanced Skills Section */
 #skills {
     padding: 100px 0;
